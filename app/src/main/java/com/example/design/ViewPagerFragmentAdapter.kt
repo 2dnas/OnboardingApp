@@ -7,16 +7,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.core.content.contentValuesOf
-import androidx.fragment.app.Fragment
 import androidx.viewpager.widget.PagerAdapter
-import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.example.design.fragments.FirstIntroFragment
-import com.example.design.fragments.ForthIntroFragment
-import com.example.design.fragments.SecondIntroFragment
-import com.example.design.fragments.ThirdIntroFragment
+
 
 
 const val NUM_PAGES = 4

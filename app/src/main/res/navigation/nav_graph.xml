@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstMainPageFragment">
+
+    <fragment
+        android:id="@+id/firstMainPageFragment"
+        android:name="com.example.design.fragments.FirstMainPageFragment"
+        android:label="FirstMainPageFragment" >
+        <action
+            android:id="@+id/action_firstMainPageFragment_to_profilePageFragment"
+            app:destination="@id/profilePageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profilePageFragment"
+        android:name="com.example.design.fragments.ProfilePageFragment"
+        android:label="ProfilePageFragment" />
+</navigation>

@@ -1,5 +1,6 @@
 package com.example.design
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.ActionBar
@@ -32,6 +33,10 @@ class MainActivity : AppCompatActivity() {
         viewPager2 = binding.viewpager
         viewPager2.adapter = viewPagerFragmentAdapter
 
+        binding.skip.setOnClickListener {
+            val intent = Intent(this,SecondActivity::class.java)
+            startActivity(intent)
+        }
 
 
 
