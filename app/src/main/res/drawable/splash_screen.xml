@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+
+    <item android:drawable="@color/white"/>
+
+    <item
+        android:left="53dp"
+        android:right="52dp">
+        <bitmap
+            android:left="53dp"
+            android:right="52dp"
+            android:gravity="clip_horizontal"
+            android:src="@drawable/sweeft_splash_logo"/>
+    </item>
+</layer-list>
